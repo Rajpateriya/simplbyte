@@ -1,13 +1,14 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Layout } from "./components/common/Layout"
-import { Home } from "./pages/Home"
-import { BlogSinglePage } from "./components/common/BlogSinglePage"
-import { About } from "./pages/About"
-import { Internships } from "./pages/Internships"
-import { Blog } from "./pages/Blog"
-import { Instructor } from "./pages/Instructor"
-import Partnership from "./pages/Partnership"
-import {Contact} from "./pages/Contact"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Layout } from "./components/common/Layout";
+import { Home } from "./pages/Home";
+import { BlogSinglePage } from "./components/common/BlogSinglePage";
+import { About } from "./pages/About";
+import { Internships } from "./pages/Internships";
+import { Blog } from "./pages/Blog";
+import { Instructor } from "./pages/Instructor";
+import Partnership from "./pages/partnership/Partnership";
+import Verification from "./pages/Verification";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path='/'
+            path="/"
             element={
               <Layout>
                 <Home />
@@ -23,7 +24,7 @@ function App() {
             }
           />
           <Route
-            path='/about'
+            path="/about"
             element={
               <Layout>
                 <About />
@@ -31,47 +32,41 @@ function App() {
             }
           />
           <Route
-            path='/contact'
+            path="/contact"
             element={
               <Layout>
                 <Contact />
               </Layout>
             }
           />
+          <Route path="/verification" element={<Verification />} />
           <Route
-            path='/verification'
-            element={
-                <Verification/>
-            }
-          />
-          <Route
-            path='/internships'
+            path="/internships"
             element={
               <Layout>
                 <Internships />
               </Layout>
-                
-              
             }
           />
           <Route
-            path='/instructor'
+            path="/instructor"
             element={
               <Layout>
                 <Instructor />
               </Layout>
             }
           />
-           <Route
-            path='/partnership'
-            element={
-              <Layout>  <Partnership /></Layout>
-                
-              
-            }
-          /> 
           <Route
-            path='/blog'
+            path="/partnership"
+            element={
+              <Layout>
+                {" "}
+                <Partnership />
+              </Layout>
+            }
+          />
+          <Route
+            path="/blog"
             element={
               <Layout>
                 <Blog />
@@ -79,7 +74,7 @@ function App() {
             }
           />
           <Route
-            path='/single-blog'
+            path="/single-blog"
             element={
               <Layout>
                 <BlogSinglePage />
@@ -89,7 +84,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
