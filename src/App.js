@@ -6,7 +6,7 @@ import { About } from "./pages/About"
 import { Internships } from "./pages/Internships"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
-// import Partnership from "./pages/Partnership"
+import Partnership from "./pages/partnership/Partnership"
 import {Contact} from "./pages/Contact"
 
 function App() {
@@ -56,14 +56,14 @@ function App() {
               </Layout>
             }
           />
-          {/* <Route
+           <Route
             path='/partnership'
             element={
-              <Layout>
-                <Partnership />
-              </Layout>
+              <Layout>  <Partnership /></Layout>
+                
+              
             }
-          /> */}
+          /> 
           <Route
             path='/blog'
             element={
