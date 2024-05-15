@@ -10,10 +10,10 @@ export const Header = () => {
   return (
     <>
       <header className="bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full">
-        <div className="container flex justify-between items-center">
+        <div className="flex flex-row items-center justify-around">
           <div className="flex items-center">
             <img src={LogoImg} alt="logo" className="h-5 w-5" />
-            <h1 className="ml-[-50px]">
+            <h1 className="ml-[-60px]">
             Simpl<span className="text-sky-700">byte</span>
             </h1>
             {/* <div className='category flex items-center text-sm gap-3'>

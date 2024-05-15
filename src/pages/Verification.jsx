@@ -1,6 +1,5 @@
 import React, { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo1 from ".././components/assets/images/Simplbyte2.png";
 import verified from ".././components/assets/images/verified1.gif";
 import { IoMdArrowRoundBack } from "react-icons/io";
 

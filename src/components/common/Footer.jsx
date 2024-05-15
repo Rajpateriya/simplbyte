@@ -26,8 +26,8 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <footer className='bg-[#F3F4F8] py-10 pt-32 -mt-24'>
-        <div className='container grid grid-cols-4 gap-5 md:grid-cols-2'>
+      <footer className='bg-[rgb(243,244,248)] p-10 mt-24 flex items-center justify-center w-full'>
+        <div className='grid grid-cols-4 gap-5 md:grid-cols-2'>
           <div className='logo'>
           <h1 className="text-black text-sm font-semibold mb-5">
             Simpl<span className="text-sky-700">byte</span>

@@ -10,7 +10,7 @@ import community from "../../components/assets/images/community.png";
 const Partnership = () => {
   return (
     <div className="partnership-container">
-      <div className="container">
+      <div className="container md:flex-col">
         <div className="left-section">
           <h2>Business <span>Partnership</span></h2>
           <p>

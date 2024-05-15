@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <>
       <section className='about py-16'>
-        <div className='container'>
+        <div className='flex flex-col justify-center items-center p-3 '>
           <div className='heading text-center py-12'>
             <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
             <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
@@ -45,7 +45,7 @@ export const AboutCard = (props) => {
 export const AboutContent = () => {
   return (
     <section className='mb-16'>
-      <div className='container flex md:flex-col'>
+      <div className='container'>
         <div className='left w-1/3 md:w-full mr-8 md:mr-0 relative'>
           <img src={aboutImg} alt='aboutImg' className=' rounded-xl' />
           {/* <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80' /> */}

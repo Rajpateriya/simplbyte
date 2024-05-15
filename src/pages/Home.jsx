@@ -1,17 +1,12 @@
 import React from "react";
-import heroImg from "../components/assets/images/hero.png";
-import heroImgback from "../components/assets/images/hero-shape-purple.png";
-import { FiSearch } from "react-icons/fi";
-import { BsFillLightningChargeFill } from "react-icons/bs";
-import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa";
-import { About } from "./About";
-import { Internships } from "./Internships";
-import { Instructor } from "./Instructor";
-import { Blog } from "./Blog";
-import back from "../components/assets/images/back.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import back from "../components/assets/images/back.png";
+import { About } from "./About";
+import { Blog } from "./Blog";
 import { Contact } from "./Contact";
+import { Instructor } from "./Instructor";
+import { Internships } from "./Internships";
 
 export const Home = () => {
   return (
