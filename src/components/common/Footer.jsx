@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className='right w-[40%] md:w-full flex items-center px-5 rounded-r-lg rounded-bl-[500px] gap-8 bg-[#FF7C54] md:bg-transparent md:p-8'>
           <div className='box flex gap-2 items-center px-5 py-3 border text-white border-gray-50 hover:bg-white hover:text-black shadow-shadow1 rounded-sm'>
           <DiSenchatouch />
-            <label className='text-sm'>Visit</label>
+            <label className='text-sm'><Link to ='/partnership'>Visit</Link></label>
           </div>
           <div className='box flex gap-2 items-center px-5 py-3 bg-white text-black shadow-shadow1 rounded-sm'>
           <SiTheregister />
