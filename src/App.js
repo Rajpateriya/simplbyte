@@ -6,7 +6,7 @@ import { About } from "./pages/About"
 import { Internships } from "./pages/Internships"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
-// import Partnership from "./pages/Partnership"
+import Partnership from "./pages/Partnership"
 import {Contact} from "./pages/Contact"
 
 function App() {
