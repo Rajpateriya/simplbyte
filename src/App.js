@@ -7,6 +7,7 @@ import { Internships } from "./pages/Internships"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
 // import Partnership from "./pages/Partnership"
+import Verification from "./pages/Verification"
 import {Contact} from "./pages/Contact"
 
 function App() {
@@ -36,6 +37,12 @@ function App() {
               <Layout>
                 <Contact />
               </Layout>
+            }
+          />
+          <Route
+            path='/verification'
+            element={
+                <Verification/>
             }
           />
           <Route
