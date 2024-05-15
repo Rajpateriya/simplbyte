@@ -63,7 +63,7 @@ const Heading = styled.div`
     }
   }
   div {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px white;
     @media (max-width: 768px) {
@@ -115,7 +115,7 @@ const Box = styled.div`
     flex-direction: column;
     h1 {
       /* text-align:center ; */
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: bold;
       color: white;
 
