@@ -55,9 +55,10 @@
   }
   
   .apply-button {
-    padding: 0.5rem 1rem;
-    border: none;
+    padding: 1rem 1.5rem;
+    border: solid 1px;
     border-radius: 0.25rem;
+    border-color: black;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;

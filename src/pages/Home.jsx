@@ -35,21 +35,22 @@ export const HomeContent = () => {
                 <span className="text-blue-800">byte</span>
               </h1>
               <h3 className="text-lg mt-3">
-                We are Dynamic and Innovative Tech Company
+                We are a Dynamic and an Innovative Tech Company <br />
+                Revolutionizing the way of learning
               </h3>
-              <span className="text-[16px]">
-                Revolutioning the way of learning
-              </span>
+              {/* <span className="text-[16px]">
+                Revolutionizing the way of learning
+              </span> */}
 
               <div className="relative text-gray-600 focus-within:text-gray-400 mt-5">
-                <button class="h-12 py-5 mx-1 w-36 bg-gradient-to-br from-gray-800 to-gray-600 flex gap-3 flex justify-center items-center cursor-pointer font-mono border border-gray-600 text-gray-400 transition duration-500 rounded-md shadow-md hover:shadow-xl hover:text-gray-200 active:shadow-inner active:shadow-2xl">
+                <button class="h-12 py-5 px-2 w-36 mb-4 bg-gradient-to-br from-blue-600 to-blue-400 flex gap-3 flex justify-center items-center cursor-pointer font-mono border border-gray-600 text-white transition duration-500 rounded-md shadow-md hover:shadow-xl hover:text-gray-200 active:shadow-inner active:shadow-2xl">
                 <Link to="/internships">Get Started </Link>
                   <HiOutlineArrowNarrowRight />
                 </button>
                 <span className="absolute inset-y-0 left-0 flex items-center pl-2"></span>
               </div>
               <span className="text-[14px] my-30">
-                You`re guaranteed to find something that`s right for you.
+                You're guaranteed to find something that's right for you.
               </span>
             </div>
             <div className="right w-1/2 md:w-full relative">

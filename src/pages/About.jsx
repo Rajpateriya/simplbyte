@@ -6,17 +6,18 @@ import { FaBookDead, FaCode, FaCodeBranch } from "react-icons/fa"
 import { RiGroupLine } from "react-icons/ri";
 import { BsHddStack } from "react-icons/bs";
 import {Link} from "react-router-dom";
+import aboutPageImg from "../components/assets/images/aboutPageImg.png"
 
 import { AiOutlineCheck } from "react-icons/ai"
 
 export const About = () => {
   return (
     <>
-      <section className='about py-16'>
+      <section className='about py-4'>
         <div className='flex flex-col justify-center items-center p-3 '>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <h1 className='text-3xl font-bold text-black'>Know More About Us</h1>
+            <span className='text-sm mt-2 block font-semibold'>Well you don't have to struggle alone, you've got our assistance and help.</span>
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
             <AboutCard color='bg-white' icon={<FaCode color="red" size={40} />} title='Simplified Internships' desc="Explore virtual internships in Web Dev, App Dev, Full Stack, ML, and Data Science; focused learning" />
@@ -47,7 +48,7 @@ export const AboutContent = () => {
     <section className='mb-16'>
       <div className='container'>
         <div className='left w-1/3 md:w-full mr-8 md:mr-0 relative'>
-          <img src={aboutImg} alt='aboutImg' className=' rounded-xl' />
+          <img src={aboutPageImg} alt='aboutImg' className='rounded-xl m-auto object-contain' />
           {/* <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80' /> */}
           {/* <div className='img-group ml-24 mt-3'>
             <img src={imgs} alt='' />
@@ -56,7 +57,7 @@ export const AboutContent = () => {
             </span>
           </div> */}
         </div>
-        <div className='right w-2/3 md:w-full md:mt-16'>
+        <div className='right w-2/3 md:w-full md:mt-16 p-5'>
           <div className='heading w-4/5 md:w-full'>
             <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Simplbyte</h1>
             <span className='text-[14px] mt-2 block'> Welcome to SimplyByte! We specialize in cultivating tech expertise through immersive internships in web/app development, Java, data science, marketing, and graphic design. Our meticulously crafted programs deliver hands-on training, mentorship, and collaboration with industry leaders. Embracing diversity, inclusion, and innovation, we empower individuals to excel in the dynamic tech domain.</span>
@@ -77,7 +78,7 @@ export const AboutContent = () => {
                 Join us to unleash your tech talent!
               </li>
             </ul>
-            <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'><Link to='/internships'>APPLY NOW</Link></button>
+            <button className='px-5 py-2 border border-black bg-gradient-to-br from-blue-600 to-blue-400 rounded-md text-sm text-white'><Link to='/internships'>APPLY NOW</Link></button>
           </div>
         </div>
       </div>

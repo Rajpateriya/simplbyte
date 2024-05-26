@@ -8,7 +8,7 @@ import { DiSenchatouch } from "react-icons/di";
 export const Footer = () => {
   return (
     <>
-      <section className='app w-4/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
+      <section className='app w-3/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
         <div className='left w-[60%] md:w-full p-10'>
           <h1 className='text-4xl font-semibold leading-tight'>
            
@@ -27,7 +27,7 @@ export const Footer = () => {
         </div>
       </section>
       <footer className='bg-[rgb(243,244,248)] p-10 mt-24 flex items-center justify-center w-full'>
-        <div className='grid grid-cols-4 gap-5 md:grid-cols-2'>
+        <div className='grid grid-cols-3 gap-5 md:grid-cols-2 place-items-center md:place-items-start md:gap-5'>
           <div className='logo'>
           <h1 className="text-black text-sm font-semibold mb-5">
             Simpl<span className="text-sky-700">byte</span>
@@ -39,7 +39,7 @@ export const Footer = () => {
           <li>
             <h4 className='text-black text-sm font-semibold mb-5'>Company</h4>
             <NavLink to='#' className=' text-[14px] block mb-2 '>
-              Contact
+              <Link to="/contact">Contact</Link>
             </NavLink>
             {/* <NavLink to='#' className=' text-[14px] block mb-2'>
               Portfolio
@@ -51,31 +51,16 @@ export const Footer = () => {
               Our team
             </NavLink> */}
             <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
+            <Link to="/about">blog</Link>
             </NavLink>
             <NavLink to='#' className=' text-[14px] block mb-2'>
-              Get in Touch
+            <Link to="/contact">Get in touch</Link>
             </NavLink>
             {/* <NavLink to='#' className=' text-[14px] block mb-2'>
               FAQ
             </NavLink> */}
             <NavLink to='#' className=' text-[14px] block mb-2'>
               Latest news
-            </NavLink>
-          </li>
-          <li>
-            <h4 className='text-black text-sm font-semibold mb-5'>Platform</h4>
-            {/* <NavLink to='#' className=' text-[14px] block mb-2'>
-              Shop
-            </NavLink> */}
-            {/* <NavLink to='#' className=' text-[14px] block mb-2'>
-              Pricing
-            </NavLink> */}
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Blog
-            </NavLink>
-            <NavLink to='#' className=' text-[14px] block mb-2'>
-              Landing
             </NavLink>
           </li>
           <li>
@@ -90,7 +75,7 @@ export const Footer = () => {
             <Link to='/internships'>Internships</Link>
             </NavLink>
             <NavLink to='#' className=' text-[14px] block mb-2'>
-            <Link to='/blog'>Services</Link>
+            <Link to='/internships'>Services</Link>
             </NavLink>
           </li>
         </div>

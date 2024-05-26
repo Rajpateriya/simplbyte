@@ -12,8 +12,7 @@ export const Internships = () => {
         <div className="w-4/5 m-auto">
           <div className="heading py-10 text-center w-2/3 m-auto md:w-full">
             <h1 className="text-3xl font-semibold text-black">
-              Find The Right <br />
-              Opportunity For You
+              Find The Right Opportunity For You
             </h1>
             <span className="text-[14px] mt-2 block">
               you don't have to struggle alone, you've got our assistance and
@@ -51,9 +50,7 @@ export const Internships = () => {
                   <div className="user flex items-center">
                     {/* <img className='rounded-full' src='' alt='' /> */}
                     {/* <span className='text-[14px] ml-2'> Simplbyte</span> */}
-                    <p>
-                      {item.description}
-                    </p>
+                    <p>{item.description}</p>
                   </div>
                 </div>
                 <div
@@ -63,7 +60,7 @@ export const Internships = () => {
                   {/* <span className='text-sm text-primary'>49rs</span> */}
                   <div className="text-[14px] ml-2 flex items-center">
                     <a
-                      href="https://forms.gle/YVyokv5w2CEgb6AE7"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfXFT0GRVAloio82BlhnL2C50oD2q4uyD3e227GBtzKmXiAcQ/viewform"
                       target="_blank"
                     >
                       Apply Now

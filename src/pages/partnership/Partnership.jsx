@@ -6,6 +6,7 @@ import target from "../../components/assets/images/target.png";
 import growth from "../../components/assets/images/growth.png";
 import skilled from "../../components/assets/images/talent-search.png";
 import community from "../../components/assets/images/community.png";
+import { Link } from "react-router-dom";
 
 const Partnership = () => {
   return (
@@ -19,7 +20,7 @@ const Partnership = () => {
     programs are designed to elevate your brand, expand your reach, and maximize
     your potential in the digital world.
           </p>
-          <button className="apply-button">Apply Now</button>
+          <button className="apply-button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSchgdGSVCNVH5IXrN_0iHSg8WaVnDNolFU_0E7sc-Goa4AjIA/viewform" target="_blank">Apply Now</a></button>
         </div>
         <div className="right-section">
           <img src={partnership} alt="Partnership Image" />
