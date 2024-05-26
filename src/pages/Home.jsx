@@ -3,9 +3,9 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import back from "../components/assets/images/back.png";
 import { About } from "./About";
-import { Blog } from "./Blog";
+// import { Blog } from "./Blog";
 import { Contact } from "./Contact";
-import { Instructor } from "./Instructor";
+// import { Instructor } from "./Instructor";
 import { Internships } from "./Internships";
 
 export const Home = () => {
@@ -17,8 +17,8 @@ export const Home = () => {
       <br />
       <br />
       <Internships />
-      <Instructor />
-      <Blog />
+      {/* <Instructor /> */}
+      {/* <Blog /> */}
       <Contact />
     </>
   );

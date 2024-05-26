@@ -18,11 +18,20 @@
   .left-section {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
-    max-width: 50%;
-
+    width: 50%;
+    text-align: center;
     align-items: center;
     padding:50px;
+  }
+  @media screen and (max-width:600px ){
+    .container{
+      width: 100%;
+
+    }
+    .left-section{
+      width: 100%;
+      margin: auto;
+    }
   }
   
   .left-section h2 {
@@ -147,7 +156,8 @@
   
   .second-content {
     height: 0%;
-    color:#fff;
+    color:#281616;
+    background-color: beige;
     font-size: small;
     width: 100%;
     opacity: 0;
@@ -166,7 +176,8 @@
     padding:5px;
     font-size: 12px;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
     transform: rotate(0deg);
   }
   @media (max-width: 768px) {

@@ -43,7 +43,8 @@
     max-width: 410px;
 }
 .submit{
-    margin-left: 210px;
+    margin: auto;
+    width: 100%;
 }
 .form_section{
     display: flex;

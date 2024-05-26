@@ -30,7 +30,7 @@ const Verification = () => {
             <Img src={verified}></Img>
             <h1>Your Document is Verified</h1>
             <p>
-              The Candidate have completed one month virtual internship
+              The Candidate have completed the virtual internship
               successfully! under Simplbyte
             </p>
           </div>

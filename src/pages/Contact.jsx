@@ -9,18 +9,7 @@ import emailjs from "@emailjs/browser";
 import ContactHeader from "./ContactHeader";
 
 export const Contact = () => {
-  // const [name, setName] = useState(undefined);
-  // const [email, setEmail] = useState(undefined);
-  // const [text, setText] = useState(undefined);
-
-  // const onSubmit = (event) => {
-  //   if (event) {
-  //     event.preventDefault(); //for preventing page default refresh
-  //     setName(event.target[0].value);
-  //     setEmail(event.target[1].value);
-  //     setText(event.target[2].value);
-  //   }
-  // };
+  
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -45,9 +34,7 @@ export const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // service_urdngg8
-    // template_9wrgmbt
-    //  wOhdKmPxY4X7ikAPb
+  
     emailjs
       .send(
         "service_l2esei5",
