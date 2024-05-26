@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e5f8de7.css",
+    "main.js": "/static/js/main.c4444673.js",
+    "static/js/453.a7254887.chunk.js": "/static/js/453.a7254887.chunk.js",
+    "static/media/boy.jpg": "/static/media/boy.3b97ba2fbade5431dc71.jpg",
+    "static/media/verified1.gif": "/static/media/verified1.5f1fb6fd9a7011e85e2b.gif",
+    "static/media/aboutPageImg.png": "/static/media/aboutPageImg.734aa155ab24dc05cc47.png",
+    "static/media/partnership3.gif": "/static/media/partnership3.b721e077e10be03817ee.gif",
+    "static/media/back.png": "/static/media/back.93e145876f7ba5a4d8fc.png",
+    "static/media/target.png": "/static/media/target.e7a8b3aa56628de357da.png",
+    "static/media/talent-search.png": "/static/media/talent-search.4c20abe365919d01fafc.png",
+    "static/media/logo-black.png": "/static/media/logo-black.ac60baf33f6ede78ddf5.png",
+    "static/media/image2.png": "/static/media/image2.468ecd7f49069defaddc.png",
+    "static/media/updatedLogo.png": "/static/media/updatedLogo.212e5692fe0845d321ae.png",
+    "static/media/community.png": "/static/media/community.030c5edff07021960e36.png",
+    "static/media/growth.png": "/static/media/growth.4e07d864a3e547a7425b.png",
+    "index.html": "/index.html",
+    "main.8e5f8de7.css.map": "/static/css/main.8e5f8de7.css.map",
+    "main.c4444673.js.map": "/static/js/main.c4444673.js.map",
+    "453.a7254887.chunk.js.map": "/static/js/453.a7254887.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e5f8de7.css",
+    "static/js/main.c4444673.js"
+  ]
+}
