@@ -29,7 +29,7 @@ export const Footer = () => {
       <footer className='bg-[rgb(243,244,248)] p-10 mt-24 flex items-center justify-center w-full'>
         <div className='grid grid-cols-3 gap-5 md:grid-cols-2 place-items-center md:place-items-start md:gap-5'>
           <div className='logo'>
-          <h1 className="text-black text-sm font-semibold mb-5">
+          <h1 className="text-black text-sm font-semibold mb-5 text-xl">
             Simpl<span className="text-sky-700">byte</span>
             </h1>
             {/* <img src={logImg} alt='logImg' className='h-5 w-5' /> <h2>Simplbyte</h2> */}
