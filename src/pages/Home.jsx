@@ -26,7 +26,7 @@ export const Home = () => {
 export const HomeContent = () => {
   return (
     <>
-      <section className="bg-secondary py-10 h-[92vh] md:h-full">
+      <section className="bg-secondary py-10 h-[92vh] md:h-full md:px-3">
         <div className="container">
           <div className="flex items-center justify-center md:flex-col">
             <div className="left w-1/2 text-black md:w-full">

@@ -8,11 +8,11 @@ import { DiSenchatouch } from "react-icons/di";
 export const Footer = () => {
   return (
     <>
-      <section className='app w-3/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10'>
-        <div className='left w-[60%] md:w-full p-10'>
-          <h1 className='text-4xl font-semibold leading-tight'>
+      <section className='app w-3/5 m-auto rounded-lg shadow-shadow2 text-white flex md:flex-col bg-primary mt-16 relative z-10 md:w-[90%]'>
+        <div className='left w-[60%] md:w-full p-5'>
+          <h1 className='text-3xl font-semibold leading-tight'>
            
-            Join hand with us <br /> Apply for Collaboration
+            Join hands with us!<br />Apply for Collaboration.
           </h1>
         </div>
         <div className='right w-[40%] md:w-full flex items-center px-5 rounded-r-lg rounded-bl-[500px] gap-8 bg-[#FF7C54] md:bg-transparent md:p-8'>
