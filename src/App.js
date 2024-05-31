@@ -9,6 +9,7 @@ import { Instructor } from "./pages/Instructor";
 import Partnership from "./pages/partnership/Partnership";
 import Verification from "./pages/Verification";
 import { Contact } from "./pages/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
+      <Analytics/>
     </>
   );
 }
