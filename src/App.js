@@ -8,8 +8,9 @@ import { Blog } from "./pages/Blog";
 import { Instructor } from "./pages/Instructor";
 import Partnership from "./pages/partnership/Partnership";
 import Verification from "./pages/Verification";
+import InternshipDetails from "./pages/InternshipDetail/InternshipDetail";
 import { Contact } from "./pages/Contact";
-import { Analytics } from "@vercel/analytics/react";
+ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             }
           />
           <Route path="/verification" element={<Verification />} />
+        
           <Route
             path="/internships"
             element={
@@ -67,6 +69,15 @@ function App() {
             }
           />
           <Route
+            path="/internshipdetail"
+            element={
+              <Layout>
+                {" "}
+                <InternshipDetails />
+              </Layout>
+            }
+          />
+          <Route
             path="/blog"
             element={
               <Layout>
@@ -83,8 +94,10 @@ function App() {
             }
           />
         </Routes>
+
       </BrowserRouter>
       <Analytics/>
+      
     </>
   );
 }

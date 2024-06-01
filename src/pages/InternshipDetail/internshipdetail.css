@@ -1,0 +1,136 @@
+.container1 {
+  font-family: 'Arial, sans-serif';
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.internship-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.internship-details h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+.internship-details ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.internship-details ul li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #ecf0f1;
+  border-radius: 5px;
+}
+
+.internship-details ul li strong {
+  color: #2ecc71;
+}
+
+.challenges {
+  margin-top: 30px;
+}
+
+.challenge {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.challenge h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: solid;
+  color: #3498db;
+}
+
+.challenge p,
+.challenge ul {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.challenge img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.challenge button {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.challenge button:hover {
+  background: #2980b9;
+}
+
+.evaluation,
+.resources {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.evaluation h2,
+.resources h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.evaluation ul,
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.evaluation ul li,
+.resources ul li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #ecf0f1;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .internship-details {
+    padding: 10px;
+  }
+
+  .internship-details ul li {
+    padding: 5px;
+  }
+
+  .challenges,
+  .evaluation,
+  .resources {
+    .challenge,
+    ul {
+      padding: 10px;
+    }
+
+    img {
+      margin-top: 5px;
+    }
+  }
+}
