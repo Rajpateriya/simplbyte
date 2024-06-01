@@ -1,6 +1,6 @@
 import React from 'react';
 import './internshipdetail.css';
-import design from "../../components/assets/images/uidesgin.png"
+import design from "../../components/assets/images/DesignChallenge.jpg"
 
 const InternshipDetails = () => {
   return (
@@ -55,7 +55,7 @@ const InternshipDetails = () => {
           <p><strong>Note:</strong>It is mandatory to complete <strong>both tasks within the deadline mentioned in your email.</strong> Please ensure that you read the internship instructions carefully to understand all requirements and guidelines.
 
           <strong>Additionally, plagiarism is strictly prohibited.</strong> Make sure to write original code and incorporate your own ideas and solutions to enhance the quality of your work. If you have any questions or need further clarification, feel free to reach out for assistance.</p>
-          <button onClick={() => window.open('submission_form_link', '_blank')}>
+          <button onClick={() => window.open( 'https://forms.gle/Qc89BjKS3AJDeFFR9')}>
             Submission Form
           </button>
         </div>
